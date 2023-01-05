@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href=".//Images/favicon_io (1)/favicon-32x32.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6c9b500bcd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- -----------------NavBar------------------ -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./Images/Great Logo Design.jfif" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+
+
+      <!-- --------------------Home Section------------------- -->
+
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hey, I'm <span>Shaikh</span> <br />
+            Umair from India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- ------------------About------------------ -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./Images/umairpic.JPG" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-titel">About Me</h1>
+            <p>
+              Shahrukh Khan was born on 2 November 1965 into a Muslim family in
+              New Delhi.[2] He spent the first five years of his life in
+              Mangalore, where his maternal grandfather, Iftikhar Ahmed, served
+              as the chief engineer of the port in the 1960s.[3][4][a] Khan's
+              father, Mir Taj Mohammed Khan, was an Indian independence activist
+              from Peshawar who campaigned alongside the Khudai Khidmatgar, a
+              nonviolent resistance movement led by Abdul Ghaffar Khan that
+              sought a united and independent India.[6][7] Mir was a follower of
+              Abdul Ghaffar Khan,[8] and affiliated with the Indian National
+              Congress
+            </p>
+            <div class="tab-titels">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>SQL</span><br />SQL Queries Solving</li>
+                <li><span>Java</span><br />OOP's Concept Collection Framework</li>
+                <li>
+                  <span>Web Technology</span><br />HTML CSS Javascript
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Software Development Training at Qspider Wakad
+                </li>
+                <li><span>2022 - March to October </span><br />Jr. Software Engineer at Zensar</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020</span><br />BE in Mech Engg from JCOET Yavatmal
+                </li>
+                <li><span>2016</span><br />12th from Jajoo Junior College</li>
+                <li><span>2014</span><br />10th from Little Birds School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------Services------------------------  -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              magni. Culpa alias dolorem autem voluptatem?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              magni. Culpa alias dolorem autem voluptatem?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              magni. Culpa alias dolorem autem voluptatem?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- -------------------------Portfolio---------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./Images/phone1.jpg">
+            <div class="layer">
+              <h3>Social Media</h3>
+              <p>The app connects you to the talented people around the World. Download it from Playstore.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Images/phone2.jpg">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>The app connects you to the talented people around the World. Download it from Playstore.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Images/phone5.jpg">
+            <div class="layer">
+              <h3>Online Shoping</h3>
+              <p>The app connects you to the talented people around the World. Download it from Playstore.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more<a>
+      </div>
+    </div>
+
+
+    <!-- ------------------Contacts------------------ -->
+       
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i> shaikhumair7222@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> 8482939235</p>
+              <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="./Images/ShaikhUmair0Y0E.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+
+     <!-- -----------------------Form------------------- -->
+
+            <div class="contact-right">
+              <form name="'submit-to-google-sheet'">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyrigth @ www.shaikhumair7222@gmail.com <i class="fa-solid fa-heart"></i> Thank You!</p>
+        </div>
+      </div>
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+       
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+          sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwwNdeL75eVlXAqxR54oCA9uZR45K0WuCCu0-ZSjANjR6eyZipgHZVf5ZWB_2J9xhr8/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
